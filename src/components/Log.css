@@ -1,0 +1,42 @@
+.table-container {
+    margin-top: 20px;
+    padding: 1rem;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f0f8ff;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6f2ff;
+  }
+
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-container input {
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
